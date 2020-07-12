@@ -33,9 +33,9 @@ export default createGlobalStyle`
     }
 
     *, button, input {
-      border: 0;
-      background: none;   
-      font-family: -apple--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: 0;
+        background: none;   
+        font-family: -apple--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     html{
