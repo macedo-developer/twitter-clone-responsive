@@ -1,11 +1,13 @@
 import React from 'react';
 
+import ProfilePage from '../ProfilePage';
+
 import {
   Container,
   Header,
   BackIcon,
   ProfileInfo,
-  BottonMenu,
+  BottomMenu,
   HomeIcon,
   SearchIcon,
   BellIcon,
@@ -24,13 +26,13 @@ const Main: React.FC = () => {
           <span>34 Tweets</span>
         </ProfileInfo>
       </Header>
-      {/* <ProfilePage/> */}
-      <BottonMenu>
+      <ProfilePage />
+      <BottomMenu>
         <HomeIcon className="active" />
         <SearchIcon />
         <BellIcon />
         <EmailIcon />
-      </BottonMenu>
+      </BottomMenu>
     </Container>
   );
 };

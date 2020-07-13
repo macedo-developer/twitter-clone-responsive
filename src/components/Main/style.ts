@@ -65,7 +65,7 @@ export const ProfileInfo = styled.div`
   }
 `;
 
-export const BottonMenu = styled.div`
+export const BottomMenu = styled.div`
   position: fixed;
   bottom: 0;
 
