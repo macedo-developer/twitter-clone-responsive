@@ -1,6 +1,16 @@
 import React from 'react';
 
-import { Container, Header, BackIcon, ProfileInfo } from './style';
+import {
+  Container,
+  Header,
+  BackIcon,
+  ProfileInfo,
+  BottonMenu,
+  HomeIcon,
+  SearchIcon,
+  BellIcon,
+  EmailIcon,
+} from './style';
 
 const Main: React.FC = () => {
   return (
@@ -15,12 +25,12 @@ const Main: React.FC = () => {
         </ProfileInfo>
       </Header>
       {/* <ProfilePage/> */}
-      {/* <BottonMenu>
-           <HomeIcon/>
-           <SearchIcon/>
-           <BellIcon/>
-           <EmailIcon/>
-      </BottonMenu> */}
+      <BottonMenu>
+        <HomeIcon className="active" />
+        <SearchIcon />
+        <BellIcon />
+        <EmailIcon />
+      </BottonMenu>
     </Container>
   );
 };
