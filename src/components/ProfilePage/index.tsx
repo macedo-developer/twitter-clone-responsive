@@ -18,7 +18,7 @@ const ProfilePage: React.FC = () => {
         <Avatar />
       </Banner>
       <ProfileData>
-        <EditButton>Editar Perfil</EditButton>
+        <EditButton outlined>Editar Perfil</EditButton>
         <h1>Renata Macedo</h1>
         <h2>@r_macedo77</h2>
 
