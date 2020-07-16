@@ -48,7 +48,7 @@ export const Logo = styled(Rocketseat)`
 
   margin-bottom: 20px;
 `;
-export const MenuButton = styled.div`
+export const MenuButton = styled.button`
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -64,6 +64,8 @@ export const MenuButton = styled.div`
       font-weight: bold;
       font-size: 19px;
     }
+
+    padding-right: 15px;
   }
 
   padding: 8.25px 0;
@@ -88,6 +90,22 @@ export const MenuButton = styled.div`
       > span {
         display: inline;
       }
+    }
+  }
+
+  cursor: pointer;
+  border-radius: 25px;
+
+  &:hover {
+    background: var(--twitter-dark-hover);
+  }
+
+  &:hover,
+  &.active {
+    span,
+    svg {
+      color: var(--twitter);
+      fill: var(--twitter);
     }
   }
 `;
