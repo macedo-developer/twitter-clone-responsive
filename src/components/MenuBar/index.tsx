@@ -45,7 +45,7 @@ const MenuBar: React.FC = () => {
           <span>Perfil</span>
         </MenuButton>
 
-        <Button outlined>
+        <Button>
           <span>Tweetar</span>
         </Button>
       </TopSide>
