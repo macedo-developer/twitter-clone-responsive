@@ -1,6 +1,7 @@
 import React from 'react';
 
 import List from '../List';
+import FollowSugestion from '../FollowSugestion';
 
 import {
   Container,
@@ -18,7 +19,14 @@ const SideBar: React.FC = () => {
         <SearchIcon />
       </SearchWrapper>
       <Body>
-        <List title="Talvez você curta" elements={[<h1>Teste</h1>]} />
+        <List
+          title="Talvez você curta"
+          elements={[
+            <FollowSugestion name="Luiz Batanero" nickname="@luizbatanero" />,
+            <FollowSugestion name="Luke Morales" nickname="@lukemorales" />,
+            <FollowSugestion name="Camila Magalhães" nickname="@camilaamgl" />,
+          ]}
+        />
         <List title="Talvez você curta" elements={[<h1>Teste</h1>]} />
       </Body>
     </Container>
