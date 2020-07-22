@@ -12,13 +12,17 @@ export const Container = styled.div`
     align-items: center;
   }
 `;
+
 export const Avatar = styled.div`
   width: 49px;
   height: 49px;
+
   border-radius: 50%;
+
   background: var(--gray);
   margin-right: 10px;
 `;
+
 export const Info = styled.div`
   display: flex;
   flex-direction: column;
