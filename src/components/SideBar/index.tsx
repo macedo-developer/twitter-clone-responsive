@@ -47,6 +47,10 @@ const SideBar: React.FC = () => {
             title="Assuntos do Momento"
             elements={[<News />, <News />, <News />]}
           />
+          <List
+            title="Assuntos do Momento"
+            elements={[<News />, <News />, <News />]}
+          />
         </Body>
       </StickBox>
     </Container>
